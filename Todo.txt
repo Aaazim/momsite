@@ -1,0 +1,8 @@
+4th march-
+	change images
+	Change text
+	change the Current flow- 
+		Current : Top, work, portfolio, contact
+		Chane to : Work, portfolio, Me, contact
+
+	Activate Contact form*
