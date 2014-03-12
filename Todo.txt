@@ -3,6 +3,6 @@
 	Change text
 	change the Current flow- 
 		Current : Top, work, portfolio, contact
-		Chane to : Work, portfolio, Me, contact
+		Chane to : Work, Services(thesis, dissertation, technical rteports, Statistical Analysis), Me, contact
 
 	Activate Contact form*

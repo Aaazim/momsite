@@ -16,7 +16,14 @@ class MainPage(webapp2.RequestHandler):
             'url_linktext': '',
         }
 
+
         template = jinja_environment.get_template('mom.html')
         self.response.out.write(template.render(template_values))
+    def post(self):
+    	template_values = {
+            'message': 'Thanks for your response, We will get back to you.',    
+        }
 
+        template = jinja_environment.get_template('mom.html')
+        self.response.out.write(template.render(template_values))
 
