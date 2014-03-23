@@ -21,9 +21,11 @@ class MainPage(webapp2.RequestHandler):
         self.response.out.write(template.render(template_values))
     def post(self):
     	template_values = {
+            "foo":self.request.POST['name'],   
             'message': 'Thanks for your response, We will get back to you.',    
         }
-
+        print "foo"
+        
         template = jinja_environment.get_template('mom.html')
         self.response.out.write(template.render(template_values))
 
