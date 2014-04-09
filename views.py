@@ -34,17 +34,17 @@ class MainPage(webapp2.RequestHandler):
 
 def send_mail(request):
     body= 'Subject: %s \n %s' %(request.POST['subject'], request.POST['message'])
-    subject="Update on your site dr-ishrat: by %s [%s]" %(request.POST['name'], request.POST['email'])  
-    mail.send_mail(sender="Mohammad Aazim <warcode91@gmail.com>",
-                  to="Mohammad Aazim <warcode91@gmail.com>, Ishrat Alim <ishrat_alim@yahoo.com",
+    subject="Update on your site docktor-ishrat: by %s [%s]" %(request.POST['name'], request.POST['email'])  
+    mail.send_mail(sender="Mohammad Rafi<confessin@gmail.com>",
+                  to="Ishrat Alim<ishrat_alim@yahoo.com>, Mohammad Aazim <warcode91@gmail.com>",
                   subject=subject,
                   body=body)
     return
 
 def send_confirmation_mail(request):
     body= 'Thanks for reaching to us, We will get back to you shortly.'
-    subject='Message receipt confirmation from dr-ishrat'
-    mail.send_mail(sender="Admin [dr-ishrat] <warcode91@gmail.com>",
+    subject='Message receipt confirmation from docktor-ishrat'
+    mail.send_mail(sender="Admin [docktor-ishrat] <confessin@gmail.com>",
                   to=request.POST['email'],
                   subject=subject,
                   body=body)
