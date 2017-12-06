@@ -12,3 +12,5 @@ Aint it awesome :) . Cant stop looking at it on my pre 3 :D
 
 
 Checking in feature 1
+
+Feature 3
